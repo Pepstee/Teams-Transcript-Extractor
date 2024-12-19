@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Transcript Extractor for MS Teams",
+    "version": "1.0",
+    "description": "Extracts transcripts from Microsoft Teams and downloads them as a text file.",
+    "permissions": ["activeTab", "https://*/*"],
+    "browser_action": {
+      "default_icon": {
+        "48": "icon.png"
+      },
+      "default_title": "Extract Transcript"
+    },
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+  
